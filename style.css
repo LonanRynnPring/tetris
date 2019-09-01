@@ -1,0 +1,17 @@
+body {
+    background: #202028;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas {
+    border: solid .2em #ffffff;
+    height: 70vh;
+}
+
+#nextPiece {
+    max-width: 50px;
+    height: auto;;
+}

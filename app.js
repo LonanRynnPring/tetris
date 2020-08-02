@@ -259,7 +259,11 @@ const colours = [
     'cyan',
 ]
 
+<<<<<<< HEAD
 const arena = createMatrix(10, 20);
+=======
+const arena = createMatrix(20, 20);
+>>>>>>> singlePlayer
 
 const player = {
     pos: {x: 0, y: 0},

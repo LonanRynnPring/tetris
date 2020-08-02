@@ -253,7 +253,7 @@ const colours = [
     'purple',
     'yellow',
     'orange',
-    'purple',
+    'blue',
     'red',
     'green',
     'cyan',

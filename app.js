@@ -168,7 +168,7 @@ function playerRotate(dir){
     while (collide(arena, player)){
         player.pos.x += offset;
         offset = -(offset + (offset > 0 ? 1 : -1));
-        if (offeset > player.matrix[0].length) {
+        if (offset > player.matrix[0].length) {
             rotate(player.matrix, -dir);
             player.pos.x = pos;
             return;
@@ -196,7 +196,7 @@ function rotate(matrix, dir){
 }
 
 let dropCounter = 0;
-let dropInterval = 1000;
+let dropInterval = 500;
 
 let lastTime = 0;
 function update(time = 0) {
